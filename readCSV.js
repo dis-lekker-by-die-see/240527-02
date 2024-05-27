@@ -2,7 +2,7 @@
 let events = {};
 
 
-function loadEventCSV() {
+//function loadEventCSV() {
 
     // document.addEventListener('DOMContentLoaded', function() {
     //     fetch('/仮日程.csv')
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error loading the CSV file:', error));
 });
 
-}
+
 
 
 ///////////
@@ -108,5 +108,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-loadEventCSV();
+//loadEventCSV();
 //displayData(events);
