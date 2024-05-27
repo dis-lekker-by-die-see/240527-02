@@ -1,17 +1,20 @@
+
 body {
-    font-family: "Segoe UI", "Meiryo UI", sans-serif;
-    background-color: lightseagreen;
+    background-color: blueviolet;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
+
 th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
+
 th {
     background-color: #f2f2f2;
 }
