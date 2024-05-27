@@ -1,7 +1,17 @@
 body {
     font-family: "Segoe UI", "Meiryo UI", sans-serif;
+    background-color: lightblue;
 }
 
-.container {
-    background-color: orange;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
 }
