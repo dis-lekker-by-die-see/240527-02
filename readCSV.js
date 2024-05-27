@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('/02 - 仮日程.csv')
+    fetch('/仮日程.csv')
         .then(response => response.text())
         .then(text => {
             const data = parseCSV(text);
