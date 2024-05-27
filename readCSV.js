@@ -16,6 +16,6 @@ function parseCSV(text) {
 function displayData(data) {
     const output = document.getElementById('output');
     output.innerHTML = '<table>' + data.map(row => 
-        `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`
+        `<tr>s${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`
     ).join('') + '</table>';
 }
